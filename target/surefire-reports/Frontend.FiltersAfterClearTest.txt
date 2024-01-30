@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: Frontend.FiltersAfterClearTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 358.086 s <<< FAILURE! - in Frontend.FiltersAfterClearTest
+Frontend.FiltersAfterClearTest.filtersAfterClearTest  Time elapsed: 358.082 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: app-queue-filter > div > form > ngx-select-dropdown:nth-child(3) > div > div > ul.available-items > li:nth-child(1) (tried for 20 second(s) with 500 milliseconds interval)
+	at Frontend.FiltersAfterClearTest.filtersAfterClearTest(FiltersAfterClearTest.java:69)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-gh.local', ip: '2804:d41:4235:f100:cc03:f4f6:3e03:b66d%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.5.1', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.129, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /var/folders/8y/k_db0glj2fb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9edcdec1c565a429430c4ac85863678c
+*** Element info: {Using=css selector, value=app-queue-filter > div > form > ngx-select-dropdown:nth-child(3) > div > div > ul.available-items > li:nth-child(1)}
+	at Frontend.FiltersAfterClearTest.filtersAfterClearTest(FiltersAfterClearTest.java:69)
+

@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: API.APITest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 20.116 s <<< FAILURE! - in API.APITest
+API.APITest.postAllYesterday  Time elapsed: 2.416 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at API.APITest.postAllYesterday(APITest.java:191)
+
+API.APITest.checkAllLastWeek  Time elapsed: 2.064 s  <<< ERROR!
+java.lang.ClassCastException: Cannot convert class java.lang.String to class API.VideoData.
+	at API.APITest.checkAllLastWeek(APITest.java:296)
+

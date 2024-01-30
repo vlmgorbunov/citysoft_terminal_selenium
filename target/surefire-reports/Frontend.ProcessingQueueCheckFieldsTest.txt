@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: Frontend.ProcessingQueueCheckFieldsTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.116 s <<< FAILURE! - in Frontend.ProcessingQueueCheckFieldsTest
+Frontend.ProcessingQueueCheckFieldsTest.setVideoAsInvalidTest  Time elapsed: 25.111 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Statuses is equals ==> expected: <Испорчено> but was: <Новые>
+	at Frontend.ProcessingQueueCheckFieldsTest.setVideoAsInvalidTest(ProcessingQueueCheckFieldsTest.java:70)
+
