@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite">
+    <test thread-count="1" name="Test">
+        <classes>
+            <class name="Frontend.LoginTest"/>
+        </classes>
+    </test>
+    <test thread-count="1" name="CheckVideoStatus">
+        <classes>
+            <class name="Frontend.CheckVideoStatus"/>
+        </classes>
+    </test>
+    <test thread-count="1" name="FiltersTest">
+        <classes>
+            <class name="Frontend.FiltersTest"/>
+        </classes>
+    </test>
+    <test thread-count="1" name="GetVideoLinksTest">
+        <classes>
+            <class name="Frontend.GetVideoLinksTest"/>
+        </classes>
+    </test>
+    <test thread-count="1" name="SetVideoAsInvalidTest">
+        <classes>
+            <class name="Frontend.SetVideoAsInvalidTest"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
